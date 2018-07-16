@@ -20,8 +20,8 @@ public class main {
 		System.out.println("player name="+goalkeeper.getName());
 		System.out.println("player name="+goalkeeper.getAge());
 		
-		System.out.println("player name="+goalkeeper1.getName());
-		System.out.println("player name="+goalkeeper1.getAge());
+		System.out.println("player name="+goalkeeper.getName());
+		System.out.println("player name="+goalkeeper.getAge());
 		
 	}
 }

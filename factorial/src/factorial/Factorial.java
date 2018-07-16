@@ -2,14 +2,30 @@ package factorial;
 
 public class Factorial {
 	
-	int fact;
+	static private int fact;
 	
-	Factorial(int fac)
-	{
-		fact=fac;
+	
+	
+	public static int getFact() {
+		return fact;
 	}
-	
-	void print_factorial()
+
+
+
+	public static void setFact(int fact) {
+		Factorial.fact = fact;
+	}
+
+
+
+	public Factorial() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+	public static void print_factorial()
 	{
 		
 		int result=1;
