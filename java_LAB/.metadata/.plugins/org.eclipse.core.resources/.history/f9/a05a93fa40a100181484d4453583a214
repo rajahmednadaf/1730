@@ -1,0 +1,24 @@
+
+public abstract class NonTeachingStaff extends Staff{
+
+	
+	
+Integer sal;
+
+	
+	NonTeachingStaff(String Tname)
+	{
+		super(Tname);
+		
+		
+	}
+	
+
+	@Override
+	public void calsal(Integer sal)
+	 {
+		this.sal=sal;
+		 System.out.println(" Teaching Staff salary"+sal);
+	 }
+	
+}

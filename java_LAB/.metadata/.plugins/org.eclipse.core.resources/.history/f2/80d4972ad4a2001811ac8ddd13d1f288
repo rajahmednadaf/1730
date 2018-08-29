@@ -1,0 +1,11 @@
+
+public class TeachingStaff extends Staff implements CalculateSalary{
+	
+	
+	TeachingStaff(String Tname)
+	{
+		super(Tname);
+		
+	}
+
+}

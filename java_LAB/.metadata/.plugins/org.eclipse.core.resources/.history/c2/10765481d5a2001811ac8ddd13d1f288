@@ -1,0 +1,16 @@
+
+public class TeachingStaff extends Staff implements CalculateSalary{
+	int sal;
+	
+	TeachingStaff(String Tname)
+	{
+		super(Tname);
+		
+	}
+	public void calsal(int sal)
+	 {
+		this.sal=sal;
+		 System.out.println(" Teaching Staff salary"+sal);
+	 }
+
+}

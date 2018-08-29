@@ -1,0 +1,20 @@
+
+public class NonTeachingStaff extends Staff implements CalculateSalary {
+
+	NonTeachingStaff(String Tname)
+	{
+		super(Tname);
+		this.sal=sal;
+		
+	}
+	
+
+	@Override
+	public void calsal()
+	 {
+		//this.sal=sal;
+		 System.out.println(" Teaching Staff salary"+sal);
+	 }
+	
+	
+}

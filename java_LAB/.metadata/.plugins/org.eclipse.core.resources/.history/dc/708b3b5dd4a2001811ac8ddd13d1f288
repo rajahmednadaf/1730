@@ -1,0 +1,20 @@
+
+public class NonTeachingStaff {
+
+	NonTeachingStaff(String Tname, Integer sal)
+	{
+		super(Tname);
+		this.sal=sal;
+		
+	}
+	
+
+	@Override
+	public void calsal()
+	 {
+		//this.sal=sal;
+		 System.out.println(" Teaching Staff salary"+sal);
+	 }
+	
+	
+}

@@ -1,0 +1,22 @@
+
+public abstract class TeachingStaff extends Staff{
+	
+	private Integer sal;
+
+	
+	TeachingStaff(String Tname,Integer x)
+	{
+		super(Tname);
+		sal=x;
+		
+	}
+	
+
+	@Override
+	public void calsal()
+	 {
+		 
+	 }
+	
+
+}

@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1534762443 source:c:\users\ahmed\desktop\1730\oop_c++\shape\src\shape.cpp
+	"Shape.h"
+	<iostream>
+	<string>
+
+1534758366 c:\users\ahmed\desktop\1730\oop_c++\shape\include\shape.h
+

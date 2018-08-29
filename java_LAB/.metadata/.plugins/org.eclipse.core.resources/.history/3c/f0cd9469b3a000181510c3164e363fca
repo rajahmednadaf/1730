@@ -1,0 +1,13 @@
+
+public class TeachingStaff extends Staff{
+	
+	private Integer sal;
+
+	
+	TeachingStaff(String Tname)
+	{
+		super(Tname);
+	}
+	
+
+}
