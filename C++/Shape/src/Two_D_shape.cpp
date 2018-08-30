@@ -5,12 +5,12 @@
 #include "Triangle.h"
 #include "Cuboid.h"
 
-Shape::Shape()
+Two_D_shape::Two_D_shape()
 {
     //ctor
 }
 
-Shape::~Shape()
+Two_D_shape::~Two_D_shape()
 {
     //dtor
 }

@@ -5,12 +5,11 @@
 class Shape
 {
     public:
+        int perimeter;
         Shape();
         virtual ~Shape();
 
     protected:
-       int parimeter;
-
 
     private:
 };

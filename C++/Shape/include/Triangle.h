@@ -1,24 +1,25 @@
+
 #ifndef TRIANGLE_H
 #define TRIANGLE_H
-#include "2D_shape.h"
-#include <iostream>
+#include<iostream>
 #include<string>
-
-
+#include"Two_D_shape.h"
 
 using namespace std;
 
-
-class Triangle:public 2D_shape
+class Triangle:public Two_D_shape
 {
     public:
+        int base;
+        int height;
+        Triangle();
         Triangle(int base,int height);
+        Triangle operator+(Triangle obj);
         void display_area();
         virtual ~Triangle();
 
     protected:
-            int base;
-            int height;
+
     private:
 };
 
