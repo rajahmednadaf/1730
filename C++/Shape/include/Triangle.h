@@ -15,6 +15,7 @@ class Triangle:public Two_D_shape
         Triangle();
         Triangle(int base,int height);
         Triangle operator+(Triangle obj);
+        Triangle operator=(Triangle obj);
         void display_area();
         virtual ~Triangle();
 

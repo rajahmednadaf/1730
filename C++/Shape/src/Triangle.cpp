@@ -31,6 +31,12 @@ Triangle Triangle::operator+(Triangle obj)
         return temp;
 }
 
+Triangle Triangle::operator=(Triangle obj)
+{
+    Triangle temp;
+
+}
+
 Triangle::~Triangle()
 {
     //dtor
